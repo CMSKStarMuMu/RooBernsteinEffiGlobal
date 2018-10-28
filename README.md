@@ -44,7 +44,7 @@ testGeneReFit <= Usage: ./testGeneReFit    [Q2Bin]    [where QBin2=0,1,2,3,4,5,6
 	    
 		- fits the reconstructed events angular distribution with a UML of the P-wave PDFxEfficiency;
 	    
-		- produces the output file testGeneReFit-2016-Q2Bin-[Q2Bin]-Bins-25-25-25-BernDeg-[max1]-[max2]-[max3]-integraBin.root, with a the canvas "ClosurePlots" where are stored the projections of the reco distribution and, superimposed in red, teh fit.  
+		- produces the output file testGeneReFit-2016-Q2Bin-[Q2Bin]-Bins-25-25-25-BernDeg-[max1]-[max2]-[max3]-integraBin.root, with a the canvas "ClosurePlots" where are stored the projections of the reco distribution and, superimposed in red, the fit.  
 		 
 		 
 testEffi3DB0-2016-makeHisto <= Usage:  ./testEffi3DB0-2016-makeHisto     QBin2     [where QBin2=0,1,2,3,4,5,6,7,8] 
@@ -53,8 +53,7 @@ testEffi3DB0-2016-makeHisto <= Usage:  ./testEffi3DB0-2016-makeHisto     QBin2  
 	    
 		- reads the MC file 2016MC_RECO_p1p2p3_newtag_LMNR_addW_add4BDT_addvars_bestBDTv4.root (for the reconstructed events) and the MiniMC file testGene-2016-Q2Bin-[Q2Bin].root (for the generated eventst produced by testGene program);
 	    
-		- produces the output file testGoofitEffi3DB0-2016-InputHisto-Q2Bin-[Q2Bin]-Bins-25-25-25.root with histograms of the efficiency;
-		   the generated and the reconstructed distributions.
+		- produces the output file testGoofitEffi3DB0-2016-InputHisto-Q2Bin-[Q2Bin]-Bins-25-25-25.root with histograms of the efficiency, the generated and the reconstructed distributions.
 		   
 testEffi     <= Usage: ./testEffi     [Q2Bin]      [where QBin2=0,1,2,3,4,5,6,7,8]
 	    
