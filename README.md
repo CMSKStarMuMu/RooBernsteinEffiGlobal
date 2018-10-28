@@ -10,17 +10,17 @@ testGene <= Usage: ./testGene [Q2Bin]  [where QBin2=0,1,2,3,4,5,6,7,8]
 
             This program: 
 	    
-	    - reads the MC file for the generated events without filter: gen_B0_miniaodWithoutGenCuts.root;
+		- reads the MC file for the generated events without filter: gen_B0_miniaodWithoutGenCuts.root;
 	    
-            - fits the generated events angular distributions [for a Q2Bin] with the P-Wave model for a Q2Bin;
+ 		- fits the generated events angular distributions [for a Q2Bin] with the P-Wave model for a Q2Bin;
 	    
-	    - extracts the model parameters and write them in a text file: ListGenValues-2016-Q2Bin-[Q2Bin].txt;
+		- extracts the model parameters and write them in a text file: ListGenValues-2016-Q2Bin-[Q2Bin].txt;
 	    
-	    - using the same model, it generates a Mini MC angular distribution (with statistic = [NFact]x[original number of MC generated events];
+		- using the same model, it generates a Mini MC angular distribution (with statistic = [NFact]x[original number of MC generated events];
 	    
-	    - test the Mini MC generated events distribution fitting it with the P-Wave model;
+		- test the Mini MC generated events distribution fitting it with the P-Wave model;
 	    
-	    - produces the output root file testGene-2016-Q2Bin-[Q2Bin].root;
+		- produces the output root file testGene-2016-Q2Bin-[Q2Bin].root;
 	    
 	    - produces B0-Generated-PdfFit-2016-Q2Bin-[Q2Bin].pdf/.png with the projections of the fit to the MC     gen events distribution;
 	    
@@ -31,6 +31,8 @@ testGene <= Usage: ./testGene [Q2Bin]  [where QBin2=0,1,2,3,4,5,6,7,8]
 	     
 	    
 testGeneReFit <= Usage: ./testGeneReFit    [Q2Bin]    [where QBin2=0,1,2,3,4,5,6,7,8]
+
+            This program: 
 	    
                  - reads the MC file 2016MC_RECO_p1p2p3_newtag_LMNR_addW_add4BDT_addvars_bestBDTv4.root;
 	    
@@ -44,6 +46,8 @@ testGeneReFit <= Usage: ./testGeneReFit    [Q2Bin]    [where QBin2=0,1,2,3,4,5,6
 		 
 		 
 testEffi3DB0-2016-makeHisto <= Usage:  ./testEffi3DB0-2016-makeHisto     QBin2     [where QBin2=0,1,2,3,4,5,6,7,8] 
+
+            This program: 
 	    
                  - reads the MC file 2016MC_RECO_p1p2p3_newtag_LMNR_addW_add4BDT_addvars_bestBDTv4.root (for the reconstructed events) and the MiniMC file testGene-2016-Q2Bin-[Q2Bin].root (for the generated eventst produced by testGene program);
 	    
