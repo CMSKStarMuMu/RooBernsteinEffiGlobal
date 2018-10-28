@@ -54,10 +54,14 @@ testEffi3DB0-2016-makeHisto <= Usage:  ./testEffi3DB0-2016-makeHisto QBin2 [wher
 		   the generated and the reconstructed distributions.
 		   
 testEffi     <= Usage: ./testEffi [Q2Bin]  [where QBin2=0,1,2,3,4,5,6,7,8]
+	    
                  - reads the file testGoofitEffi3DB0-2016-InputHisto-Q2Bin-[Q2Bin]-Bins-25-25-25.root;		   
+	    
 		 - reads the efficiency coefficents for the Bernstein Polynomial from  ListParValues-2016-Q2Bin-[Q2Bin]-Bins-25-25-25-BernDeg-[max1]-[max2]-[max3]-integraBin.plo; 
+	    
 		 - performs the closure test evaluating [miniMC generated events]xEfficiency;
-		 - produces the output testEffiRooFit-2016-Q2Bin-[Q2Bin]-Bins-25-25-25-BernDeg-[max1]-[max2]-[max3]-integraBin.root;
+	    
+		 - produces the output testEffiRooFit-2016-Q2Bin-[Q2Bin]-Bins-25-25-25-BernDeg-[max1]-[max2]-[max3]-integraBin.root
 		   with the canvas "ClosurePlots", where are stored the closure plot projections, and the canvas  "ProjEffiPlots", with the efficiency projections. 
 		   
 		   
