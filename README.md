@@ -42,7 +42,7 @@ testGeneReFit <= Usage: ./testGeneReFit    [Q2Bin]    [where QBin2=0,1,2,3,4,5,6
 	    
 		- reads the efficiency coefficents for the Bernstein Polynomial from  ListParValues-2016-Q2Bin-[Q2Bin]-Bins-25-25-25-BernDeg-[max1]-[max2]-[max3]-integraBin.plo where max1,max2,max3 are the maximum polynomial degrees for cosL,cosK and phi;
 	    
-		- fits the reconstructed events angular distribution with a UML of the P-wave PDFxEfficiency;
+		- fits the reconstructed events angular distribution with a UML of the P-wave (PDF) X (Efficiency);
 	    
 		- produces the output file testGeneReFit-2016-Q2Bin-[Q2Bin]-Bins-25-25-25-BernDeg-[max1]-[max2]-[max3]-integraBin.root, with a the canvas "ClosurePlots" where are stored the projections of the reco distribution and, superimposed in red, the fit.  
 		 
